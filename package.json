@@ -1,9 +1,9 @@
 {
-  "name": "@minimal/material-kit-react",
-  "author": "minimals.cc",
+  "name": "Szymon Soltysiak",
+  "author": "szymon.soltysiak@gmail.com",
   "licence": "MIT",
   "version": "2.0.0",
-  "private": false,
+  "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite",
