@@ -57,12 +57,6 @@ export const _fullName = (index: number) =>
     'Willis Ankunding',
   ][index];
 
-export const _price = (index: number) =>
-  [
-    35.17, 57.22, 64.78, 50.79, 9.57, 61.46, 96.73, 63.04, 33.18, 36.3, 54.42, 20.52, 62.82, 19.96,
-    25.93, 70.39, 23.11, 67.23, 14.31, 31.5, 26.72, 44.8, 37.87, 75.53,
-  ][index];
-
 export const _company = (index: number) =>
   [
     'Medhurst, Moore and Franey',
@@ -201,32 +195,4 @@ export const _taskNames = (index: number) =>
     `Conduct Quality Assurance`,
     `Plan Event Logistics`,
     `Optimize SEO Strategies`,
-  ][index];
-
-export const _productNames = (index: number) =>
-  [
-    'Nike Air Force 1 NDESTRUKT',
-    'Nike Space Hippie 04',
-    'Nike Air Zoom Pegasus 37 A.I.R. Chaz Bear',
-    'Nike Blazer Low 77 Vintage',
-    'Nike ZoomX SuperRep Surge',
-    'Zoom Freak 2',
-    'Nike Air Max Zephyr',
-    'Jordan Delta',
-    'Air Jordan XXXV PF',
-    'Nike Waffle Racer Crater',
-    'Kyrie 7 EP Sisterhood',
-    'Nike Air Zoom BB NXT',
-    'Nike Air Force 1 07 LX',
-    'Nike Air Force 1 Shadow SE',
-    'Nike Air Zoom Tempo NEXT%',
-    'Nike DBreak-Type',
-    'Nike Air Max Up',
-    'Nike Air Max 270 React ENG',
-    'NikeCourt Royale',
-    'Nike Air Zoom Pegasus 37 Premium',
-    'Nike Air Zoom SuperRep',
-    'NikeCourt Royale',
-    'Nike React Art3mis',
-    'Nike React Infinity Run Flyknit A.I.R. Chaz Bear',
   ][index];
