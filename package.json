@@ -1,13 +1,13 @@
 {
-  "name": "Szymon Soltysiak",
+  "name": "simonai-app",
   "author": "szymon.soltysiak@gmail.com",
   "licence": "MIT",
   "version": "2.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "start": "vite preview",
+    "start": "vite",
+    "preview": "vite preview",
     "build": "tsc && vite build",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "lint:fix": "eslint --fix \"src/**/*.{js,jsx,ts,tsx}\"",

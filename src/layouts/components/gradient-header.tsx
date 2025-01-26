@@ -5,16 +5,14 @@ import Typography from '@mui/material/Typography';
 
 import { textGradient } from 'src/theme/styles';
 
-// ----------------------------------------------------------------------
+interface Props extends StackProps {
+  title: string;
+}
 
-export function NavUpgrade({ sx, ...other }: StackProps) {
+export function GradientHeader({ title }: Props) {
   return (
     <Box
       display="flex"
-      alignItems="center"
-      flexDirection="column"
-      sx={{ mb: 4, textAlign: 'center', ...sx }}
-      {...other}
     >
       <Typography
         variant="h6"
@@ -24,7 +22,7 @@ export function NavUpgrade({ sx, ...other }: StackProps) {
           ),
         })}
       >
-        WDYT?
+        {title}
       </Typography>
     </Box>
   );

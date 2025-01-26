@@ -13,7 +13,6 @@ import { AnalyticsWidgetSummary } from '../analytics-widget-summary';
 import { AnalyticsTrafficBySite } from '../analytics-traffic-by-site';
 import { AnalyticsCurrentSubject } from '../analytics-current-subject';
 import { AnalyticsConversionRates } from '../analytics-conversion-rates';
-import { textGradient } from '../../../theme/styles';
 
 // ----------------------------------------------------------------------
 
@@ -22,11 +21,8 @@ export function OverviewAnalyticsView() {
     <DashboardContent maxWidth="xl">
       <Typography
         variant="h4"
-        sx={(theme) => ({
-          mb: { xs: 3, md: 5 },
-          ...textGradient(
-            `to right, ${theme.vars.palette.secondary.main}, ${theme.vars.palette.warning.main}`
-          ),
+        sx={() => ({
+          mb: { xs: 3, md: 5 }
         })}
       >
         Hi, Welcome back 👋

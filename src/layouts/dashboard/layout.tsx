@@ -12,6 +12,7 @@ import { navData } from '../config-nav-dashboard';
 import { MenuButton } from '../components/menu-button';
 import { LayoutSection } from '../core/layout-section';
 import { HeaderSection } from '../core/header-section';
+import { GradientHeader } from '../components/gradient-header';
 
 // ----------------------------------------------------------------------
 
@@ -67,7 +68,7 @@ export function DashboardLayout({ sx, children, header }: DashboardLayoutProps) 
                 />
               </>
             ),
-            rightArea: null,
+            rightArea: <GradientHeader title="szymon.soltysiak@gmail.com" />,
           }}
         />
       }
